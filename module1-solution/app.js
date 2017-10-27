@@ -5,8 +5,8 @@ angular.module('LunchCheck', []).controller('LunchCheckController', function ($s
   $scope.totalMeal = "";
 
   $scope.if2Much = function () {
-    var totalMeals = checkIf2Much($scope.list);
-    $scope.totalMeal = totalMeals;
+    var totaldishes = checkIf2Much($scope.list);
+    $scope.totalMeal = totaldishes;
   };
   function checkIf2Much(string) {
     var totalCountMeals = "";
