@@ -1,7 +1,7 @@
 (function () {
 'use strict';
 angular.module('LunchCheck', []).controller('LunchCheckController', function ($scope) {
-  $scope.list = "n";
+  $scope.list = "";
   $scope.totalMeal = "";
 
   $scope.if2Much = function () {
